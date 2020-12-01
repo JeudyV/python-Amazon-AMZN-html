@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.padre{
+    width: 100%;
+    height: auto;
+    min-height: 100vh;
+    background-color: red;
+}
+.content{
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    flex-flow: column;
+    background-color: blueviolet;
+    justify-content: center;
+    align-items: center;
+}
+.a{
+    width: 50%;
+    height: auto;
+    min-height: 500px;
+    background-color: darkgreen;
+    border: 5px solid #000;
+    padding: 20px;
+}
+.c{
+    width: 50%;
+    min-height: 50%;
+    height: auto;
+    background-color: brown;
+    border: 5px solid #000;
+    padding: 20px;
+}
